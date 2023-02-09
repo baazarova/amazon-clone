@@ -1,0 +1,38 @@
+.card{
+   display: flex;
+   flex-direction: column;
+   background-color: #ffffff;
+   z-index: 1;
+   align-items: center;
+   justify-content: flex-end;
+   margin: 10px;
+   padding: 20px;
+   width: 100%;
+   /* max-height: 400px; */
+   /* max-width: 1000px; */
+}
+.card__img{
+    max-height: 200px;
+    width: 100%;
+    object-fit: contain;
+    margin-bottom: 15px;
+}
+.card__info{
+    /* height: 100px; */
+    margin-bottom: 15px;
+    text-align: center;
+}
+.card__price{
+    margin-top: 5px;
+    margin-bottom: 25px;
+}
+.card__btn {
+    background: #f0c14b;
+    padding: 5px 10px;
+    margin-top: 10px;
+    border: 1px solid;
+    color: #111;
+    border-color: #a88734 #9c7e31 #846a29;
+    cursor: pointer;
+    border: none;
+}
